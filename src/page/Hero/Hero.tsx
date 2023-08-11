@@ -1,8 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import './Hero.css';
 
 const Hero: React.FC = () => {
-  const summerizeRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -28,9 +27,6 @@ const Hero: React.FC = () => {
     };
   }, []);
 
-  const scrollToSummerize = () => {
-    summerizeRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
 
   return (
     <div className="hero-container">
