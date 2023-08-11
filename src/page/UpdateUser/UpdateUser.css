@@ -1,0 +1,50 @@
+.update-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .update-user-form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+  }
+  
+  .update-user-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .update-user-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .update-user-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .update-user-form .form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-user-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .not-authorized-message {
+    text-align: center;
+  }
+  

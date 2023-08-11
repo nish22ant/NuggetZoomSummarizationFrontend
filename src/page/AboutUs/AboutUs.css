@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.about-content p {
+    margin-bottom: 10px;
+}
+
+
+.container {
+    padding-top: 2rem;
+}
+
+h1 {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+p {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bold;
+    overflow: auto;
+}

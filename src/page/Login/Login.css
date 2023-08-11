@@ -1,0 +1,34 @@
+.login-form-container {
+  margin-top: 8rem;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+h2,
+button {
+  text-align: center;
+}
+
+form > div {
+  padding: 0.5rem;
+}
+
+h2 {
+  font-family: "Share Tech Mono", monospace;
+}
+
+label {
+    font-family: 'Cutive Mono', monospace;
+    font-weight: bolder;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
