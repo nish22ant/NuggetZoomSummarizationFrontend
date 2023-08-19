@@ -48,7 +48,7 @@ const SummerizeForm = () => {
       }
 
       const response = await axios.post(
-        "https://063d-2607-9880-1b10-174-9d77-236e-5880-5069.ngrok-free.app/upload/upload",
+        `${import.meta.env.VITE_BACKEND_URI}/upload/upload`,
         requestData
       );
 

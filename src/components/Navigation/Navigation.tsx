@@ -52,7 +52,7 @@ const Navigation: React.FC = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <NavLink className="navbar-brand" to="/home">
-        N.ai
+        Nugget.ai
       </NavLink>
       <button
         className="navbar-toggler"
